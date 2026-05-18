@@ -4,6 +4,6 @@ print(sum(numbers))
 for i in range(10):
     print(i)
 
-with open('names.txt', 'r', encoding='utf-8') as f:
+with open('my_test_repository/names.txt', 'r', encoding='utf-8') as f:
     contents = f.read()
     print(contents)
